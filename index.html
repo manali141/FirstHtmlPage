@@ -1,14 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My Page</title>
+    <link href="style.css" rel="stylesheet">
+
 </head>
+
 <body>
-     <div>
-        <h1>Hello World</h1>
-        <h4>Manali Mistry</h4>
-    </div>
+
+    <header>
+        <h1>Manali Mistry</h1>
+        <p>Welcome to my Hello World</p>
+    </header>
+
+
+    <section class="contact-container">
+
+
+        <div class="form-box">
+            <h2>Contact Me</h2>
+
+            <form>
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" required>
+
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" rows="4" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+
+
+        <div class="image-box">
+            <img src="https://media.istockphoto.com/id/485371557/photo/twilight-at-spirit-island.jpg?s=1024x1024&w=is&k=20&c=BaIpHy3fW9u6WP-QK4ApQNuzsKrjKrF7sXjQwRWVZ8E="
+                alt="Beautiful scenic landscape with mountains and lake at sunset">
+        </div>
+
+    </section>
+
 </body>
+
 </html>
